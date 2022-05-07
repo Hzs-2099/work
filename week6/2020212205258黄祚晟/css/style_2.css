@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-05 14:51:15
+ * @version $Id$
+ */
+.g-index{
+	width: 1210px;
+	height: 780px;
+	background-color: #eee;
+	display: flex;
+	align-content: flex-start; 
+	flex-wrap: wrap;
+}
+.g-index>li{
+	list-style: none;
+	width: 390px;
+	height: 370px;
+	background-color: white;
+	margin: 10px 0px 10px 10px;
+	display: flex;
+	align-content: flex-start; 
+	flex-wrap: wrap;
+}
+.m-1{
+	width: 390px;
+	height: 260px;
+	background-color: #eee;
+	background: url("../img/back.jpg");
+}
+.m-2{
+	width: 390px;
+	height: 110px;
+	display: flex;
+	align-content: flex-start; 
+	flex-wrap: wrap;
+}
+.title{
+	width: 370px;
+	height: 20px;
+	margin: 10px 0px 0px 10px;
+}
+.inf{
+	width: 370px;
+	height: 20px;
+	margin: 10px 0px 0px 10px;
+	display: flex;
+}
+.inf-1{
+	color: red;
+}
+.inf-2{
+	color: #888;
+}
+.price{
+	width: 370px;
+	height: 30px;
+	margin: 10px 0px 0px 10px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.p-1{
+	font-size: 28px;
+	font-weight: bold;
+	color: red;
+	margin-top: -2px;
+}
+.p-2{
+	font-size: 15px;
+	color: #888;
+	margin-top: 11px;
+	flex-grow:3
+}
+.p-3{
+	font-size: 15px;
+	margin-top: 11px;
+}
+.p-3>strong{
+	color: red;
+}

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-30 10:37:04
+ * @version $Id$
+ */
+.g-index{
+	width: 800px;
+	height: 600px;
+	background-color: #bbb;
+	display: flex;
+	flex-direction: column ;
+}
+.g-hd{
+	width: 760px;
+	height: 120px;
+	background-color: #116611;
+	display: flex;
+	flex-direction: row ;
+	margin: 20px;
+}
+.g-hd>li{
+	list-style: none;
+	width: 80px;
+	height: 80px;
+	background-color: #bbb;
+	margin: 20px;
+}
+.g-hd>div{
+	flex-grow: 2;
+}
+.g-bd{
+	width: 760px;
+	height: 420px;
+	background-color: #116611;
+	display: flex;
+	margin: 0px 20px 20px 20px;
+}
+.g-bd-1{
+	width: 240px;
+	height: 420px;
+	background-color: #116611;
+	display: flex;
+	flex-wrap: wrap;
+}
+.g-bd-1>div{
+	width: 200px;
+	height: 300px;
+	background-color: #bbb;
+	margin: 20px;
+}
+.g-bd-1>li{
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	background-color: #bbb;
+	margin: 0px 5px 20px 20px;
+}
+.g-bd-2{
+	width: 520px;
+	height: 400px;
+	background-color: #116611;
+	display: flex;
+	flex-wrap: wrap;
+}
+.g-bd-2>li{
+	list-style: none;
+	width: 480px;
+	height: 40px;
+	background-color: #bbb;
+	margin: 20px 0px -5px 20px;
+}

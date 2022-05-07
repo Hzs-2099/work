@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-06 10:37:29
+ * @version $Id$
+ */
+body{
+    padding: 20px;
+}
+header{
+    margin-bottom: 10px;
+}
+header>.m-t1{
+    width: 1000px;
+    border-bottom: 5px solid #006699;
+}
+header>.m-t1>.m-tab{
+    margin-top:23px;
+}
+header>.m-t1>.m-tip{
+    margin: 22px 0px 0px 0px;
+}
+header>.m-t1>.m-tab>span{
+    background: #006699;
+    color: white;
+    padding: 4px 10px 4px;
+    border-radius: 3px 3px 0 0;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+header>.m-t1>.m-tip>span{
+    background: #ff6600;
+    color: white;
+    padding: 2px 4px;
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+header>.m-t1>.m-fun{
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 2px;
+    float: right;
+    margin-top: 23px;
+    color: blue;
+}
+header>.m-t1>.m-fun>.m-fun-img{
+    margin-bottom: -8px;
+    margin-top: -8px;
+}
+.m-t1>.ui-grid-2,.m-t1>.ui-grid-21{
+    margin-bottom: 0;
+}
+header>.m-t2{
+    width: 1000px;
+    background: #eee;
+    border: 1px solid #ddd;
+}
+header>.m-t2>.m-time>span{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+header>.m-t2>.m-price>span{
+    font-size: 15px;
+    text-align: center;
+}
+.m-price>.m-price-money{
+    color: red;
+    font-weight: bold;
+}
+header>.m-t2>.m-needtime>span{
+    font-size: 15px;
+}
+.m-needtime>.m-needtime-time{
+    color: red;
+    font-weight: bold;
+}
+.m-t2>.m-time,.m-t2>.m-needtime{
+    margin: 0px 0px 5px 10px;
+}
+header>.m-t2>.m-taketime>span{
+    font-size: 15px;
+}
+.m-taketime>.m-taketime-time{
+    color: #000;
+    font-weight: bold;
+}
+header>.m-t2>.m-change>span{
+    font-size: 15px;
+}
+.m-change>.m-change-times{
+    color: red;
+    font-weight: bold;
+}
+.m-t2>.ui-grid-5,.m-t2>.ui-grid-15{
+    margin-bottom: 2px;
+}
+header>.m-t3{
+    width: 1000px;
+    background: #ffffdd;
+    border: 1px solid #ddd;
+}
+.m-t3-img{
+    margin: -5px 0 -5px 0;
+}
+header>.m-t3>div{
+    float: right;
+    margin: 10px 10px 10px 0;
+    color: blue;
+}
+section{
+    width: 1000px;
+}
+section>.m-t1>.ui-grid-13{
+    background: #bbddff;
+    color: #006699;
+    padding: 2px 4px;
+    margin: 0px 2px 0px 0px;
+    text-align: center;
+}
+section>.m-t1>.ui-grid-3{
+    background: #bbddff;
+    color: #006699;
+    padding: 2px 4px;
+    margin: 0px 2px 0px 1px;
+    text-align: center;
+}
+section>.m-t2{
+    width: 1000px;
+    background: #eee;
+    border: 1px solid #ddd;
+}
+section>.m-t2>.m-t2-ltime{
+    display: block;
+    padding: 20px 0 5px 0;
+    text-align: center;
+    font-size: 15px;
+}
+section>.m-t2>.m-t2-title{
+    display: block;
+    padding: 15px 0 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+section>.m-t2>.m-t2-title>.m-t2-title-img{
+    margin-bottom: -5px;
+}
+section>.m-t2>.m-t2-location{
+    display: block;
+    padding: 15px 0 5px 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+section>.m-t2>.m-t2-left{
+    display: block;
+    padding: 5px 0 5px 0;
+    height: 36px;
+    width: 200px;
+    float: right;
+    margin-right: 5px;
+    font-size: 15px;
+}
+section>.m-t2>.m-t2-left>.m-t2-left-up{
+    float: right;
+    display: inline-block;
+    color: blue;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+section>.m-t2>.m-t2-left>.m-t2-left-up>span{
+    float: right;
+    margin: 0px 0 0 5px;
+    padding-top: 5px;
+}
+section>.m-t3{
+    width: 1000px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #ddd;
+}
+section>.m-t3>.m-t3-time{
+    height: 40px;
+    justify-content:center;
+    padding: 10px 0 10px 0;
+    border-right: 2px solid #22eeff;
+}
+section>.m-t3>.m-t3-time>span{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+section>.m-t3>.m-t3-time>.m-t3-time-1{
+    font-weight: bold;
+}
+section>.m-t3>.m-t3-inf{
+    padding: 0px 2px 0 2px;
+    margin: 0px;
+    height: 60px;
+    border-left: 2px solid #22eeff;
+    border-right: 2px solid #ddd;
+}
+section>.m-t3>.m-t3-inf>.m-t3-inf-1{
+    margin-top: 18px;
+    color: #996600;
+    font-size: 15px;
+    font-weight: bold;
+}
+section>.m-t3>.m-t3-inf>.m-t3-inf-2{
+    margin: 10px 0;
+    color: #006699;
+    font-size: 15px;
+}
+section>.m-t3>.m-t3-inf>.m-t3-inf-2>.m-t3-inf-m>span{
+    padding: 1px 5px 1px 5px;
+    background: #006699;
+    color: white;
+    border-radius: 5px;
+}
+section>.m-t3>.m-t3-none{
+    padding-right: 10px;
+    margin: 0px;
+    height: 60px;
+    border-right: 2px solid #ddd;
+}
+section>.m-t3>.m-t3-chioce{
+    padding-top: 10px;
+    margin: 0px;
+    height: 52px;
+    border-right: 2px solid #ddd;
+    text-align: center;
+    font-size: 15px;
+}
+section>.m-t3>.m-t3-charge{
+    display: block;
+    margin: 0px;
+    padding: 5px 10px 5px 0;
+    height: 52px;
+    font-weight: bold;
+    border-right: 2px solid #ddd;
+}
+section>.m-t3>.m-t3-charge>span{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+section>.m-t3>.m-t3-distance{
+    width: 120px;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 15px;
+}
